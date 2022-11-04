@@ -53,6 +53,12 @@
 ### <br/><br/><br/>
 
 ## Your first native app
+### init
+```
+> expo init DoneWithIt
+```
+### choose one of these otions. We gonna choose blank.
+#### ![image](https://user-images.githubusercontent.com/62974484/199898330-b9fbbf39-953a-4f09-b901-4cf0d0aad5ca.png)
 
 
 
