@@ -14,11 +14,12 @@
 ### 2. npm (node.js)
 ### install
 #### https://nodejs.org/en/
-### 버전 확인 
+### check version
 #### ![image](https://user-images.githubusercontent.com/62974484/199886353-61a263d5-88fa-48c6-9405-086ae07301af.png)
 ### 3. expo
 ```
 # i = install
+> npm install -g react-native-cli
 > npm i -g expo-cli
 ```
 ### 3-2. expo client
@@ -49,9 +50,10 @@
 #### ![image](https://user-images.githubusercontent.com/62974484/199890898-6f7e81a5-a474-46c6-b65c-06b1c6f6e424.png)
 ### <br/><br/>
 
-
-
 ### <br/><br/><br/>
+
+## Your first native app
+
 
 
 
