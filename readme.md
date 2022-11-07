@@ -188,10 +188,11 @@ https://user-images.githubusercontent.com/62974484/200348266-613e0190-076c-4535-
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Attach to packager",
-      "request": "attach",
+      "name": "Debug Android",
+      "request": "launch",
       "type": "reactnative",
-      "cwd": "${workspaceFolder}"
+      "cwd": "${workspaceFolder}",
+      "platform": "android"
     },
     {
       "name": "Attach to packager",
