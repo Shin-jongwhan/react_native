@@ -118,6 +118,11 @@ const styles = StyleSheet.create({
 #### ![image](https://user-images.githubusercontent.com/62974484/200295099-7246548c-fa85-4ca4-a1aa-5f64ad8db446.png)
 #### ![image](https://user-images.githubusercontent.com/62974484/200295563-8883a632-c966-4882-8e28-46c2f16d901a.png)
 
+### You can connect your app onto android emulator
+### press a
+#### ![image](https://user-images.githubusercontent.com/62974484/200300710-435d8401-2f98-4045-b375-44b9184882df.png)
+### check your emulator
+#### ![image](https://user-images.githubusercontent.com/62974484/200300791-956cba75-c124-4e4c-ba8b-c6ce951b79b2.png)
 
 
 
