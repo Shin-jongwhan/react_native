@@ -16,12 +16,16 @@
 #### https://nodejs.org/en/
 ### check version
 #### ![image](https://user-images.githubusercontent.com/62974484/199886353-61a263d5-88fa-48c6-9405-086ae07301af.png)
+### <br/><br/>
+
 ### 3. expo
 ```
 # i = install
 > npm install -g react-native-cli
 > npm i -g expo-cli
 ```
+### <br/><br/>
+
 ### 3-2. expo client
 #### It's android app which is to execute the app you created.
 ### <br/><br/>
