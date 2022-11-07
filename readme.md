@@ -167,6 +167,12 @@ https://user-images.githubusercontent.com/62974484/200348266-613e0190-076c-4535-
 ### You can type variables into 'Watch (조사식)' and it show you what the variant type is.
 #### ![image](https://user-images.githubusercontent.com/62974484/200349452-050a481a-ed1b-4d55-b342-f943447bc7ce.png)
 
-### <br/><br/>
+### <br/><br/><br/>
+
+## debug in VScode
+### [make sure you installed react native tools extension]
+### Go to 'run and debug' and click create json file, check attach to packager
+#### ![image](https://user-images.githubusercontent.com/62974484/200353616-97c5eda6-6b5d-4f54-acae-0fa538b12ed8.png)
+
 
 --------------------------------------
