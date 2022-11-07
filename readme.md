@@ -173,6 +173,32 @@ https://user-images.githubusercontent.com/62974484/200348266-613e0190-076c-4535-
 ### [make sure you installed react native tools extension]
 ### Go to 'run and debug' and click create json file, check attach to packager
 #### ![image](https://user-images.githubusercontent.com/62974484/200353616-97c5eda6-6b5d-4f54-acae-0fa538b12ed8.png)
-
+#### ![image](https://user-images.githubusercontent.com/62974484/200354486-e9468936-2f13-494f-a33b-5c0dcc9492a2.png)
+#### ![image](https://user-images.githubusercontent.com/62974484/200354560-303ad4ba-73cb-458e-a157-a7e8d8106cbe.png)
+#### ![image](https://user-images.githubusercontent.com/62974484/200354623-4b987576-8b51-4b3e-afff-b8e0fe4f57b7.png)
+#### ![image](https://user-images.githubusercontent.com/62974484/200354776-68abd8a3-2480-45d2-a933-a826f38b8b8f.png)
+```
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug Android",
+      "request": "launch",
+      "type": "reactnative",
+      "cwd": "${workspaceFolder}",
+      "platform": "android"
+    },
+    {
+      "name": "Attach to packager",
+      "cwd": "${workspaceFolder}",
+      "type": "reactnative",
+      "request": "attach"
+    }
+  ]
+}
+```
 
 --------------------------------------
