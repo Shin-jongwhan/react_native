@@ -179,7 +179,7 @@ https://user-images.githubusercontent.com/62974484/200348266-613e0190-076c-4535-
 #### ![image](https://user-images.githubusercontent.com/62974484/200354776-68abd8a3-2480-45d2-a933-a826f38b8b8f.png)
 ### <br/>
 
-### Add 'debug android' into json file
+### Automatically added 'debug android' into json file
 ```
 {
   // Use IntelliSense to learn about possible attributes.
@@ -203,5 +203,16 @@ https://user-images.githubusercontent.com/62974484/200348266-613e0190-076c-4535-
   ]
 }
 ```
+### <br/>
+
+### You can insert red dot to the left of the code
+#### ![image](https://user-images.githubusercontent.com/62974484/200356649-a1e0f9cb-750f-42ba-8e3c-d2c352d79abd.png)
+### <br/>
+
+### select attach to packager and click run button
+#### ![image](https://user-images.githubusercontent.com/62974484/200357401-95989827-1af3-4946-8901-03feeb1a15aa.png)
+### <br/>
+
+
 
 --------------------------------------
