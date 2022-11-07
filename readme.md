@@ -120,7 +120,7 @@ const styles = StyleSheet.create({
 
 ### You can connect your app onto android emulator
 ### press a
-#### ![image](https://user-images.githubusercontent.com/62974484/200300710-435d8401-2f98-4045-b375-44b9184882df.png)
+#### ![image](https://user-images.githubusercontent.com/62974484/200337028-5979631b-1a6c-4be1-afde-faa6c7734067.png)
 ### check your emulator
 #### ![image](https://user-images.githubusercontent.com/62974484/200300791-956cba75-c124-4e4c-ba8b-c6ce951b79b2.png)
 ### menubar for expo app : ctrl + M
