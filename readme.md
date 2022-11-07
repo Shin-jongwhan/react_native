@@ -206,7 +206,7 @@ https://user-images.githubusercontent.com/62974484/200348266-613e0190-076c-4535-
 ### <br/>
 
 ### You can insert red dot to the left of the code
-#### ![image](https://user-images.githubusercontent.com/62974484/200356649-a1e0f9cb-750f-42ba-8e3c-d2c352d79abd.png)
+#### ![image](https://user-images.githubusercontent.com/62974484/200357656-f9297791-8eb0-4cd5-a4ae-c081742a8252.png)
 ### <br/>
 
 ### select attach to packager and click run button
