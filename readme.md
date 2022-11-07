@@ -149,8 +149,14 @@ export default function App() {
 ## debugging
 ### http://localhost:[port_num]/debugger-ui/
 #### ![image](https://user-images.githubusercontent.com/62974484/200342464-a848db22-1a5f-4a2a-aefc-8b10fcc707b3.png)
+### </br/><br/>
+
 ### press F12 and see console window
 #### ![image](https://user-images.githubusercontent.com/62974484/200342645-344a7836-3d51-48b8-bf5f-7b22b1891e11.png)
+### <br/><br/>
 
+### dev tools - source - pause button
+### and check 'pause on caught exceptions' (catch된 예외에서 일시 중지)
+#### ![image](https://user-images.githubusercontent.com/62974484/200343570-41457234-d617-49a9-964a-a2916ac82bc8.png)
 
 --------------------------------------
