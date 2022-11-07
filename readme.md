@@ -177,6 +177,9 @@ https://user-images.githubusercontent.com/62974484/200348266-613e0190-076c-4535-
 #### ![image](https://user-images.githubusercontent.com/62974484/200354560-303ad4ba-73cb-458e-a157-a7e8d8106cbe.png)
 #### ![image](https://user-images.githubusercontent.com/62974484/200354623-4b987576-8b51-4b3e-afff-b8e0fe4f57b7.png)
 #### ![image](https://user-images.githubusercontent.com/62974484/200354776-68abd8a3-2480-45d2-a933-a826f38b8b8f.png)
+### <br/>
+
+### Add 'debug android' into json file
 ```
 {
   // Use IntelliSense to learn about possible attributes.
