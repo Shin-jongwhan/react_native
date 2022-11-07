@@ -123,7 +123,8 @@ const styles = StyleSheet.create({
 #### ![image](https://user-images.githubusercontent.com/62974484/200300710-435d8401-2f98-4045-b375-44b9184882df.png)
 ### check your emulator
 #### ![image](https://user-images.githubusercontent.com/62974484/200300791-956cba75-c124-4e4c-ba8b-c6ce951b79b2.png)
-
+### menubar for expo app : ctrl + M
+#### ![image](https://user-images.githubusercontent.com/62974484/200335663-5352ff13-b0f6-46ed-987e-e8721a26b2af.png)
 
 
 --------------------------------------
