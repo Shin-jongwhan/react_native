@@ -126,5 +126,31 @@ const styles = StyleSheet.create({
 ### menubar for expo app : ctrl + M
 #### ![image](https://user-images.githubusercontent.com/62974484/200335663-5352ff13-b0f6-46ed-987e-e8721a26b2af.png)
 
+### <br/><br/><br/>
+
+## Debugging - logging
+### console.log("str")
+```
+// View -> UIView
+export default function App() {
+  console.log("App executed")
+  return (
+    <View style={styles.container}>
+      <Text>Hello React Native !</Text>
+      <StatusBar style="auto" />
+    </View>
+  );
+}
+```
+#### ![image](https://user-images.githubusercontent.com/62974484/200340769-8b0aba74-0530-44df-b80f-8e80556b1c3b.png)
+
+### <br/><br/><br/>
+
+## debugging
+### http://localhost:[port_num]/debugger-ui/
+#### ![image](https://user-images.githubusercontent.com/62974484/200342464-a848db22-1a5f-4a2a-aefc-8b10fcc707b3.png)
+### press F12 and see console window
+#### ![image](https://user-images.githubusercontent.com/62974484/200342645-344a7836-3d51-48b8-bf5f-7b22b1891e11.png)
+
 
 --------------------------------------
