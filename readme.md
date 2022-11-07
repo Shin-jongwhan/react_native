@@ -59,6 +59,12 @@
 #### ![image](https://user-images.githubusercontent.com/62974484/200297974-65060f0a-2521-4f23-b289-cb1f9f270d8c.png)
 #### ![image](https://user-images.githubusercontent.com/62974484/200298421-373f87c8-e6b7-4e60-841b-1c2e4d79b2cd.png)
 #### ![image](https://user-images.githubusercontent.com/62974484/200298780-89e58919-04fe-438d-a755-55a7d452e780.png)
+### install android emulator, the version you're interested in
+#### ![image](https://user-images.githubusercontent.com/62974484/200299021-d7afa888-0e75-4fa3-8f95-c832dbded7bf.png)
+### register and execute emulator
+#### ![image](https://user-images.githubusercontent.com/62974484/200299313-5328e1fc-a0a3-40b9-b5b2-296b576917e0.png)
+#### ![image](https://user-images.githubusercontent.com/62974484/200300000-451ca1de-acb0-4cee-8051-7de31bcfb4f9.png)
+#### ![image](https://user-images.githubusercontent.com/62974484/200300092-d417e412-d03b-42ca-ab64-271804352d28.png)
 
 
 ### <br/><br/><br/>
