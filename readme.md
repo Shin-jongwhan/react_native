@@ -158,8 +158,14 @@ export default function App() {
 ### dev tools - source - pause button
 ### and check 'pause on caught exceptions' (catch된 예외에서 일시 중지)
 #### ![image](https://user-images.githubusercontent.com/62974484/200343570-41457234-d617-49a9-964a-a2916ac82bc8.png)
+### <br/><br/>
+
 ### The error will be stop at error code and You can check what error occur.
 https://user-images.githubusercontent.com/62974484/200348266-613e0190-076c-4535-a31e-1dc531005344.mp4
+### <br/>
+
+### You can type variables into 'Watch (조사식)' and it show you what the variant type is.
+#### ![image](https://user-images.githubusercontent.com/62974484/200349452-050a481a-ed1b-4d55-b342-f943447bc7ce.png)
 
 ### <br/><br/>
 
