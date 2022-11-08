@@ -257,6 +257,11 @@ https://user-images.githubusercontent.com/62974484/200348266-613e0190-076c-4535-
 
 ### You can find the published app at expo io
 #### ![image](https://user-images.githubusercontent.com/62974484/200603974-9cb383b8-60f5-4e49-a1ed-47acd43af6b6.png)
+### <br/>
+
+### in terminal
+### [expo](https://expo.dev/@shinejh0528/DoneWithIt)
+#### ![image](https://user-images.githubusercontent.com/62974484/200605471-aaa01bbc-28cf-4d50-8503-790732fe6c46.png)
 
 
 --------------------------------------
