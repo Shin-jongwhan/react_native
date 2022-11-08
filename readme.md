@@ -327,6 +327,15 @@ import { StyleSheet, Text, View, SafeAreaView } from 'react-native';
     </SafeAreaView>
   );
 ```
+### <br/>
+
+### You can check the safe area
+#### ![image](https://user-images.githubusercontent.com/62974484/200625819-dc4c0304-4747-43ee-85a7-e24972bf2e25.png)
+
+### <br/><br/><br/>
+--------------------------------------
+
+## Text
 
 
 
