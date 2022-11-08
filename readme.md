@@ -218,11 +218,16 @@ https://user-images.githubusercontent.com/62974484/200348266-613e0190-076c-4535-
 #### ![image](https://user-images.githubusercontent.com/62974484/200596648-9ec54fc4-1fa2-494a-8b2f-564b947912a5.png)
 ### <br/>
 
+### execute debugger.
+### caution : The web debugger browser should close.
+#### ![image](https://user-images.githubusercontent.com/62974484/200599135-1f5436b1-9ca9-435b-b67c-12c7261151e7.png)
+### <br/>
+
 ### You can pause app here
 #### ![image](https://user-images.githubusercontent.com/62974484/200597562-3bed843b-4e83-4e1a-8cf0-18fe24b26a8d.png)
 ### You can continue through pressing continue button
 #### ![image](https://user-images.githubusercontent.com/62974484/200597980-e78dad37-af58-4b50-9248-e22a47a3c642.png)
-### check your log
+### check log
 #### ![image](https://user-images.githubusercontent.com/62974484/200598778-092f8f7f-3de5-4bac-b12d-2186694e82e4.png)
 
 
