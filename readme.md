@@ -1,10 +1,10 @@
---------------------------------------
 # 221104
 
 # React Native Tutorial for Beginners - Build a React Native App
 ### https://www.youtube.com/watch?v=0-S5a0eXPoc&t=573s
 
 ### <br/><br/><br/>
+--------------------------------------
 
 ## setting up dev environment
 ### 1. visual studio code
@@ -66,8 +66,9 @@
 #### ![image](https://user-images.githubusercontent.com/62974484/200300000-451ca1de-acb0-4cee-8051-7de31bcfb4f9.png)
 #### ![image](https://user-images.githubusercontent.com/62974484/200300092-d417e412-d03b-42ca-ab64-271804352d28.png)
 
-
 ### <br/><br/><br/>
+
+--------------------------------------
 
 ## Your first native app
 ### init
@@ -128,6 +129,8 @@ const styles = StyleSheet.create({
 
 ### <br/><br/><br/>
 
+--------------------------------------
+
 ## Debugging - logging
 ### console.log("str")
 ```
@@ -145,6 +148,8 @@ export default function App() {
 #### ![image](https://user-images.githubusercontent.com/62974484/200340769-8b0aba74-0530-44df-b80f-8e80556b1c3b.png)
 
 ### <br/><br/><br/>
+
+--------------------------------------
 
 ## debugging
 ### http://localhost:[port_num]/debugger-ui/
@@ -168,6 +173,8 @@ https://user-images.githubusercontent.com/62974484/200348266-613e0190-076c-4535-
 #### ![image](https://user-images.githubusercontent.com/62974484/200349452-050a481a-ed1b-4d55-b342-f943447bc7ce.png)
 
 ### <br/><br/><br/>
+
+--------------------------------------
 
 ## debug in VScode
 ### [make sure you installed react native tools extension]
@@ -229,6 +236,12 @@ https://user-images.githubusercontent.com/62974484/200348266-613e0190-076c-4535-
 #### ![image](https://user-images.githubusercontent.com/62974484/200597980-e78dad37-af58-4b50-9248-e22a47a3c642.png)
 ### check log
 #### ![image](https://user-images.githubusercontent.com/62974484/200598778-092f8f7f-3de5-4bac-b12d-2186694e82e4.png)
+
+### <br/><br/><br/>
+--------------------------------------
+
+## Publishing
+
 
 
 --------------------------------------
