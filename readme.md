@@ -289,7 +289,7 @@ https://user-images.githubusercontent.com/62974484/200348266-613e0190-076c-4535-
 ### <br/><br/><br/>
 --------------------------------------
 
-## view conponent
+## view - SafeAreaView
 ### Let's check how the words are aligned.
 ### remove algin component on styles variable in app.js 
 ### app.js
