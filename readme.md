@@ -270,8 +270,8 @@ https://user-images.githubusercontent.com/62974484/200348266-613e0190-076c-4535-
 
 ## expo build
 ### 상업적으로 사용하려면 유료다. 비싸다... expo 로는 build 해보고 테스트 용으로만 사용한다.
-#### ![image](https://user-images.githubusercontent.com/62974484/200618769-f718fbe2-19d9-4308-8248-1e32ba5b9485.png)
 ### 상업적인 이용은 react-native-cli 로 build 한다.
+#### ![image](https://user-images.githubusercontent.com/62974484/200618769-f718fbe2-19d9-4308-8248-1e32ba5b9485.png)
 ### <br/>
 
 ### see site below to build to expo
