@@ -5,7 +5,6 @@
 
 ### <br/><br/><br/>
 --------------------------------------
---------------------------------------
 
 ## setting up dev environment
 ### 1. visual studio code
@@ -242,7 +241,22 @@ https://user-images.githubusercontent.com/62974484/200348266-613e0190-076c-4535-
 --------------------------------------
 
 ## Publishing
+### app.json : check publishing info
+#### ![image](https://user-images.githubusercontent.com/62974484/200603322-82727fcf-f259-4ed6-af3c-d52c3b25b721.png)
+### <br/><br/>
 
+### go to expo io and sign up
+#### https://expo.dev/
+### <br/>
+
+### In terminal, type
+```
+> expo publish
+```
+<br/>
+
+### You can find the published app at expo io
+#### ![image](https://user-images.githubusercontent.com/62974484/200603974-9cb383b8-60f5-4e49-a1ed-47acd43af6b6.png)
 
 
 --------------------------------------
