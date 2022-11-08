@@ -238,6 +238,7 @@ https://user-images.githubusercontent.com/62974484/200348266-613e0190-076c-4535-
 #### ![image](https://user-images.githubusercontent.com/62974484/200598778-092f8f7f-3de5-4bac-b12d-2186694e82e4.png)
 
 ### <br/><br/><br/>
+
 --------------------------------------
 
 ## Publishing
@@ -263,5 +264,29 @@ https://user-images.githubusercontent.com/62974484/200348266-613e0190-076c-4535-
 ### https://expo.dev/@\[user_name\]/DoneWithIt
 #### ![image](https://user-images.githubusercontent.com/62974484/200605471-aaa01bbc-28cf-4d50-8503-790732fe6c46.png)
 
+### <br/><br/><br/>
+
+--------------------------------------
+
+## expo build
+### 상업적으로 사용하려면 유료다. 비싸다... expo 로는 build 해보고 테스트 용으로만 사용한다.
+#### ![image](https://user-images.githubusercontent.com/62974484/200618769-f718fbe2-19d9-4308-8248-1e32ba5b9485.png)
+### 상업적인 이용은 react-native-cli 로 build 한다.
+### <br/>
+
+### see site below to build to expo
+#### https://docs.expo.dev/build/setup/
+```
+> npm install -g eas-cli
+> eas login
+> eas build:configure
+> eas build --platform android
+```
+### <br/>
+
+### build complete
+#### ![image](https://user-images.githubusercontent.com/62974484/200619572-fdef3aa7-fd93-4046-a23b-fa030b0ac29f.png)
+
+### <br/><br/><br/>
 
 --------------------------------------
