@@ -260,7 +260,7 @@ https://user-images.githubusercontent.com/62974484/200348266-613e0190-076c-4535-
 ### <br/>
 
 ### in terminal
-### [expo](https://expo.dev/@shinejh0528/DoneWithIt)
+### https://expo.dev/@\[user_name\]/DoneWithIt
 #### ![image](https://user-images.githubusercontent.com/62974484/200605471-aaa01bbc-28cf-4d50-8503-790732fe6c46.png)
 
 
