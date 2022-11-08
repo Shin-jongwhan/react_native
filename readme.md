@@ -265,10 +265,9 @@ https://user-images.githubusercontent.com/62974484/200348266-613e0190-076c-4535-
 #### ![image](https://user-images.githubusercontent.com/62974484/200605471-aaa01bbc-28cf-4d50-8503-790732fe6c46.png)
 
 ### <br/><br/><br/>
-
 --------------------------------------
 
-## expo build
+## build (expo)
 ### 상업적으로 사용하려면 유료다. 비싸다... expo 로는 build 해보고 테스트 용으로만 사용한다.
 ### 상업적인 이용은 react-native-cli 로 build 한다.
 #### ![image](https://user-images.githubusercontent.com/62974484/200618769-f718fbe2-19d9-4308-8248-1e32ba5b9485.png)
@@ -288,5 +287,48 @@ https://user-images.githubusercontent.com/62974484/200348266-613e0190-076c-4535-
 #### ![image](https://user-images.githubusercontent.com/62974484/200619572-fdef3aa7-fd93-4046-a23b-fa030b0ac29f.png)
 
 ### <br/><br/><br/>
+--------------------------------------
 
+## view conponent
+### Let's check how the words are aligned.
+### remove algin component on styles variable in app.js 
+### app.js
+```
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: 'dodgerblue'
+  },
+});
+```
+### add SafeAreaView
+```
+import { StyleSheet, Text, View, SafeAreaView } from 'react-native';
+```
+### <br/>
+
+### Words are aligned left top. There is no margin.
+#### ![image](https://user-images.githubusercontent.com/62974484/200624170-c642e182-9aee-4742-8ed9-bd0de94c89b7.png)
+
+### edit app()
+```
+  return (
+    <View style={styles.container}>
+      <Text>Hello React Native !</Text>
+      <StatusBar style="auto" />
+    </View>
+  );
+```
+### to
+```
+  return (
+    <SafeAreaView style={styles.container}>
+      <Text>Hello React Native !</Text>
+    </SafeAreaView>
+  );
+```
+
+
+
+### <br/><br/><br/>
 --------------------------------------
