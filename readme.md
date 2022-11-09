@@ -332,6 +332,27 @@ import { StyleSheet, Text, View, SafeAreaView } from 'react-native';
 ### You can check the safe area
 #### ![image](https://user-images.githubusercontent.com/62974484/200625819-dc4c0304-4747-43ee-85a7-e24972bf2e25.png)
 
+### <br/><br/>
+
+### SafeAreaView doesn't work ! -> how to fix
+### I would advise you to not just follow safeAreaView functionalities. rather its better extract the Status bar height and give a marginTop to whole container so its always below the status bar.
+#### https://stackoverflow.com/questions/59428494/safeareaview-not-work-views-go-above-the-notification-tab
+```
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: 'dodgerblue',
+    marginTop:StatusBar.currentHeight
+  },
+});
+```
+### <br/>
+
+### only use SafeAreaView (error)
+#### ![image](https://user-images.githubusercontent.com/62974484/200882946-8f9845e0-368e-44eb-9bff-dd0866ed3976.png)
+### use marginTop:StatusBar.currentHeight
+#### ![image](https://user-images.githubusercontent.com/62974484/200883102-423641ce-ace9-4988-bf7c-d9348ae76b3d.png)
+
 ### <br/><br/><br/>
 --------------------------------------
 
