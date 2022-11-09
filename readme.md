@@ -492,10 +492,44 @@ const styles = StyleSheet.create({
 #### ![image](https://user-images.githubusercontent.com/62974484/200897550-0747afdb-86b2-4412-89bd-7881957c9b6e.png)
 ### <br/>
 
-
+### You can also put url image
+```
+      <Image 
+        style = {styles.logo}
+        source = {{
+          uri: "https://cdn.pixabay.com/photo/2022/01/18/07/36/cat-6946498_960_720.jpg"
+        }}
+      />
+```
+#### ![image](https://user-images.githubusercontent.com/62974484/200898531-aac25ccd-fd8c-42e6-b93a-0d177b9d4b92.png)
 ### <br/>
 
+### `blurRadius`
+```
+      <Image 
+        style = {styles.logo}
+        blurRadius = {10}
+        source = {{
+          uri: "https://cdn.pixabay.com/photo/2022/01/18/07/36/cat-6946498_960_720.jpg"
+        }}
+      />
+```
+#### ![image](https://user-images.githubusercontent.com/62974484/200898889-8a1c69c3-d6f3-4bcc-b27b-cc6d30262010.png)
+### <br/>
 
+### `fadeDuration`
+```
+      <Image 
+        style = {styles.logo}
+        blurRadius = {10}
+        fadeDuration = {1000}
+        source = {{
+          uri: "https://cdn.pixabay.com/photo/2022/01/18/07/36/cat-6946498_960_720.jpg"
+        }}
+      />
+```
+https://user-images.githubusercontent.com/62974484/200899643-cdf3b138-8d59-4b11-8203-3f0e2a915435.mp4
+### <br/>
 
 ### <br/><br/><br/>
 --------------------------------------
