@@ -407,6 +407,30 @@ const styles = StyleSheet.create({
 ```
 https://user-images.githubusercontent.com/62974484/200886753-dc1dcaeb-315c-4593-9f19-8a042be21c5b.mp4
 
+### <br/><br/><br/>
+--------------------------------------
+
+## Image
+
+### add `Image`
+```
+import { StyleSheet, Text, View, SafeAreaView, StatusBar, Image } from 'react-native';
+```
+
+### add `<Image source = {require('./assets/icon.png')} />`
+```
+return (
+    <SafeAreaView style={styles.container}>
+      <Text numberOfLines={1} onPress={() => console.log("Text clicked")}>
+        Hello React Native !
+      </Text>
+      <Image source = {require('./assets/icon.png')} />
+    </SafeAreaView>
+  );
+```
+
+
 
 ### <br/><br/><br/>
 --------------------------------------
+
