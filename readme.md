@@ -348,9 +348,11 @@ const styles = StyleSheet.create({
 ```
 ### <br/>
 
-### only use SafeAreaView (error)
+### Not recommend : only use SafeAreaView (error)
 #### ![image](https://user-images.githubusercontent.com/62974484/200882946-8f9845e0-368e-44eb-9bff-dd0866ed3976.png)
-### use marginTop:StatusBar.currentHeight
+### <br/>
+
+### Recommend : use marginTop:StatusBar.currentHeight
 #### ![image](https://user-images.githubusercontent.com/62974484/200883102-423641ce-ace9-4988-bf7c-d9348ae76b3d.png)
 
 ### <br/><br/><br/>
