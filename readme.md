@@ -391,7 +391,7 @@ const styles = StyleSheet.create({
 #### ![image](https://user-images.githubusercontent.com/62974484/200885295-f2be37f9-6e36-4017-8d3c-7c995c2c7d26.png)
 ### <br/>
 
-### Let's add onPress
+### Let's add `onPress`
 ```
       <Text numberOfLines={1} onPress={() => console.log("Text clicked")}>
 ```
