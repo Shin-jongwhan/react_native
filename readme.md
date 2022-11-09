@@ -417,7 +417,7 @@ https://user-images.githubusercontent.com/62974484/200886753-dc1dcaeb-315c-4593-
 import { StyleSheet, Text, View, SafeAreaView, StatusBar, Image } from 'react-native';
 ```
 
-### add `<Image source = {require('./assets/icon.png')} />`
+#### add `<Image source = {require('./assets/icon.png')} />`
 ```
 return (
     <SafeAreaView style={styles.container}>
@@ -428,6 +428,15 @@ return (
     </SafeAreaView>
   );
 ```
+#### ![image](https://user-images.githubusercontent.com/62974484/200890817-a461ea39-2c4d-4a7a-b816-493ce61f8dfd.png)
+### <br/>
+
+### require function return value is number
+### You can check through console
+```
+console.log(require("./assets/icon.png"))
+```
+#### ![image](https://user-images.githubusercontent.com/62974484/200891159-6edb4756-0aba-4f7c-84f5-d101645b079c.png)
 
 
 
