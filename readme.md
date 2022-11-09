@@ -451,6 +451,11 @@ console.log(require("./assets/icon.png"))
       />
 ```
 #### ![image](https://user-images.githubusercontent.com/62974484/200895271-252594d7-2a5d-4ea9-be56-c24f6d9643e7.png)
+### <br/>
+
+### There's some problem with image size
+### See `resizeMode`
+#### ![image](https://user-images.githubusercontent.com/62974484/200900226-bf3cf78d-1ff1-4f3c-a50e-19469500f1d5.png)
 
 ### code cleanup using StyleSheet
 ```
