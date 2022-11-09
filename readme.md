@@ -2,6 +2,10 @@
 
 # React Native Tutorial for Beginners - Build a React Native App
 ### https://www.youtube.com/watch?v=0-S5a0eXPoc&t=573s
+### <br/><br/>
+
+# react native
+### https://reactnative.dev/docs/0.69/components-and-apis
 
 ### <br/><br/><br/>
 --------------------------------------
@@ -359,6 +363,33 @@ const styles = StyleSheet.create({
 --------------------------------------
 
 ## Text
+### See react native docs
+#### https://reactnative.dev/docs/0.69/text
+### <br/><br/>
+
+### NumberOfLines
+#### ![image](https://user-images.githubusercontent.com/62974484/200884283-c22b10aa-bbf4-4dea-a468-dca6f745f40d.png)
+```
+  return (
+    <SafeAreaView style={styles.container}>
+      <Text>
+        Hello React Native ! 1 Hello React Native ! 2 Hello React Native ! 3 Hello React Native ! 4 Hello React Native ! 5
+      </Text>
+    </SafeAreaView>
+  );
+}
+```
+#### ![image](https://user-images.githubusercontent.com/62974484/200884988-7c0aec48-d3d2-465c-b81d-308161a09130.png)
+### <br/>
+
+### add numberOfLines to Text area
+```
+      <Text numberOfLines={1}>
+        Hello React Native ! 1 Hello React Native ! 2 Hello React Native ! 3 Hello React Native ! 4 Hello React Native ! 5
+      </Text>
+```
+#### ![image](https://user-images.githubusercontent.com/62974484/200885295-f2be37f9-6e36-4017-8d3c-7c995c2c7d26.png)
+### <br/>
 
 
 
