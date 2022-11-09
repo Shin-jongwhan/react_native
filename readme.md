@@ -405,6 +405,8 @@ const styles = StyleSheet.create({
       <Text numberOfLines={1} onPress={handlePress}>
       ....
 ```
+https://user-images.githubusercontent.com/62974484/200886753-dc1dcaeb-315c-4593-9f19-8a042be21c5b.mp4
+
 
 ### <br/><br/><br/>
 --------------------------------------
