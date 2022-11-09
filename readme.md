@@ -367,7 +367,7 @@ const styles = StyleSheet.create({
 #### https://reactnative.dev/docs/0.69/text
 ### <br/><br/>
 
-### NumberOfLines
+### *NumberOfLines*
 #### ![image](https://user-images.githubusercontent.com/62974484/200884283-c22b10aa-bbf4-4dea-a468-dca6f745f40d.png)
 ```
   return (
