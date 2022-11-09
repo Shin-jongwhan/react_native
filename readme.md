@@ -305,7 +305,7 @@ const styles = StyleSheet.create({
   },
 });
 ```
-### add SafeAreaView
+### add `SafeAreaView`
 ```
 import { StyleSheet, Text, View, SafeAreaView } from 'react-native';
 ```
@@ -356,7 +356,7 @@ const styles = StyleSheet.create({
 #### ![image](https://user-images.githubusercontent.com/62974484/200882946-8f9845e0-368e-44eb-9bff-dd0866ed3976.png)
 ### <br/>
 
-### Recommend : use marginTop:StatusBar.currentHeight
+### Recommend : use `marginTop:StatusBar.currentHeight`
 #### ![image](https://user-images.githubusercontent.com/62974484/200883102-423641ce-ace9-4988-bf7c-d9348ae76b3d.png)
 
 ### <br/><br/><br/>
