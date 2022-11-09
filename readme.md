@@ -518,6 +518,7 @@ const styles = StyleSheet.create({
 ### <br/>
 
 ### `fadeDuration`
+### It only works in android, it has no effects in ios app
 ```
       <Image 
         style = {styles.logo}
