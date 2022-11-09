@@ -431,12 +431,27 @@ return (
 #### ![image](https://user-images.githubusercontent.com/62974484/200890817-a461ea39-2c4d-4a7a-b816-493ce61f8dfd.png)
 ### <br/>
 
-### require function return value is number
+### `require` function return value is number
 ### You can check through console
 ```
 console.log(require("./assets/icon.png"))
 ```
 #### ![image](https://user-images.githubusercontent.com/62974484/200891159-6edb4756-0aba-4f7c-84f5-d101645b079c.png)
+### <br/>
+
+### resize image
+```
+      <Image 
+        style = {{ width: '100%' }}
+        source = {{
+          height: 200,
+          uri: require("./assets/icon.png")
+        }}
+        resizeMode='cover'
+      />
+```
+#### ![image](https://user-images.githubusercontent.com/62974484/200895271-252594d7-2a5d-4ea9-be56-c24f6d9643e7.png)
+### <br/>
 
 
 
