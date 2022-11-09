@@ -452,7 +452,7 @@ console.log(require("./assets/icon.png"))
 ```
 #### ![image](https://user-images.githubusercontent.com/62974484/200895271-252594d7-2a5d-4ea9-be56-c24f6d9643e7.png)
 
-### code `resizeMode: 'cover'`
+### code cleanup using StyleSheet
 ```
   return (
     <SafeAreaView style={styles.container}>
@@ -484,10 +484,11 @@ const styles = StyleSheet.create({
   },
 });
 ```
+### `resizeMode: 'cover'`
 #### ![image](https://user-images.githubusercontent.com/62974484/200897389-7b30e0aa-9e87-47fc-a6fc-7a80396426d7.png)
 ### <br/>
 
-### resizeMode: 'stretch'
+### `resizeMode: 'stretch'`
 #### ![image](https://user-images.githubusercontent.com/62974484/200897550-0747afdb-86b2-4412-89bd-7881957c9b6e.png)
 ### <br/>
 
