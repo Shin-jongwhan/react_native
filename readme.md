@@ -576,8 +576,24 @@ https://user-images.githubusercontent.com/62974484/200899770-6d985e4d-f60f-4525-
 ```
 ### 클릭하면 opacity 가 계속 변화한다.
 https://user-images.githubusercontent.com/62974484/201522622-802ef223-b2f0-48e5-b83f-f2a10b6ebb36.mp4
+### <br/><br/><br/>
 
-
+### `TouchableHighlight`
+```
+      <TouchableHighlight onPress = {() => console.log("Image tapped")}>
+        <Image 
+          style = {styles.logo}
+          blurRadius = {10}
+          fadeDuration = {1000}
+          source = {{
+            uri: "https://cdn.pixabay.com/photo/2022/01/18/07/36/cat-6946498_960_720.jpg"
+          }}
+        />
+      </TouchableHighlight>
+```
+### 클릭하면 하이라이트만 슉 하고 나타나고 다시 원래 그림으로 되돌아온다.
+https://user-images.githubusercontent.com/62974484/201522774-57f7cd58-a808-4213-b9c9-6578438ebca9.mp4
+### <br/><br/><br/>
 
 
 
