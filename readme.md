@@ -870,9 +870,8 @@ const styles = StyleSheet.create({
 ## Demensions
 ### <br/><br/><br/>
 
-### **D**
-ensity-
-**i**
-ndependent **P**ixels
-#### Physical Pixels = DIPs * Scale Factor
+### mobile OS 는 실제 pixel 을 scale 값을 곱해줘서 구한다.
+#### ![image](https://user-images.githubusercontent.com/62974484/201535533-0b63a663-7d02-48dd-826d-657d206b80f2.png)
+### DIP : Density-independent Pixels
+### Physical Pixels = DIPs * Scale Factor
 
