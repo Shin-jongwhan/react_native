@@ -561,7 +561,21 @@ https://user-images.githubusercontent.com/62974484/200899770-6d985e4d-f60f-4525-
 #### ![image](https://user-images.githubusercontent.com/62974484/201522475-3e452def-4d31-4790-9530-90c202192006.png)
 ### <br/><br/><br/>
 
-
+### `TouchableOpacity`
+```
+      <TouchableOpacity onPress = {() => console.log("Image tapped")}>
+        <Image 
+          style = {styles.logo}
+          blurRadius = {10}
+          fadeDuration = {1000}
+          source = {{
+            uri: "https://cdn.pixabay.com/photo/2022/01/18/07/36/cat-6946498_960_720.jpg"
+          }}
+        />
+      </TouchableOpacity>
+```
+### 클릭하면 opacity 가 계속 변화한다.
+https://user-images.githubusercontent.com/62974484/201522622-802ef223-b2f0-48e5-b83f-f2a10b6ebb36.mp4
 
 
 
