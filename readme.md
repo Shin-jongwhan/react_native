@@ -543,6 +543,21 @@ https://user-images.githubusercontent.com/62974484/200899770-6d985e4d-f60f-4525-
 ## touchables
 ### <br/><br/><br/>
 
+```
+import { 
+  StyleSheet, 
+  Text, 
+  TouchableWithoutFeedback, 
+  TouchableOpacity,
+  TouchableHighlight,
+  TouchableNativeFeedback,
+  View, 
+  SafeAreaView, 
+  StatusBar, 
+  Image 
+} from 'react-native';
+```
+
 ### `TouchableWithoutFeedback`
 ### 다음과 같이 Image 태그를 TouchableWithoutFeedback 안으로 감싼다.
 ### 기능을 알기 위해 onPress 기능으로 log 를 찍어본다.
