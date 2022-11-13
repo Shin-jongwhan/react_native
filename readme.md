@@ -870,4 +870,6 @@ const styles = StyleSheet.create({
 ## Demensions
 ### <br/><br/><br/>
 
-### [D]ensity-independent Pixels
+### **D**ensity-**i**ndependent **P**ixels
+#### Physical Pixels = DIPs * Scale Factor
+
