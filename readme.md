@@ -706,6 +706,86 @@ https://user-images.githubusercontent.com/62974484/201527531-442db5f6-25f6-4d91-
 
 --------------------------------------
 
+## StyleSheet
+### <br/><br/><br/>
+
+### 다음과 같이도 쓸 수 있지만 권장하지 않는다.
+```
+const containerStyle = {backgroundColor: "orange"};
+<SafeAreaView style={containerStyle}>
+...
+</SafeAreaView>
+```
+### <br/><br/><br/>
+
+### `StyleSheet.create` 를 사용하는 것을 권장한다.
+### stylesheet 의 문법을 검사해준다.
+```
+  return (
+    <SafeAreaView style={styles.container}>
+      ...
+    </SafeAreaView>
+  );
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+    marginTop:StatusBar.currentHeight,
+    justifyContent: "center",
+    alignItems: "center"
+  },
+  logo: {
+    width: 200,
+    height: 300,
+    resizeMode: 'stretch'
+  },
+}
+```
+### <br/><br/><br/>
+
+### \[\] 으로 넣어주면 여러 style 을 넣어줄 수 있다.
+```
+  return (
+    <SafeAreaView style={[styles.container, styles.background_orange]}>
+      <Text numberOfLines={1} onPress={() => console.log("Text clicked")}>
+        Hello React Native !
+      </Text>
+      <Button 
+        color="orange"
+        title="Click Me" 
+        onPress={() => Alert.alert("My title", "My messqge", [
+          {text: "Yes", onPress: () => console.log("Yes")}, 
+          {text: "No", onPress: () => console.log("No")},
+        ])}
+      />
+    </SafeAreaView>
+  );
+}
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+    marginTop:StatusBar.currentHeight,
+    justifyContent: "center",
+    alignItems: "center"
+  },
+  logo: {
+    width: 200,
+    height: 300,
+    resizeMode: 'stretch'
+  },
+  background_orange: {
+    backgroundColor: 'orange',
+  },
+}
+```
+#### ![image](https://user-images.githubusercontent.com/62974484/201528683-b97f73c2-56cb-4af8-85dd-65103a0d1db0.png)
+
+
+
+
 
 
 
