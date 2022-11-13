@@ -625,10 +625,29 @@ https://user-images.githubusercontent.com/62974484/201526369-708f7381-ee81-43ee-
 
 --------------------------------------
 
+## Button
+### <br/><br/><br/>
 
+### 버튼의 기본 color 는 blue
+```
+<Button title="Click Me" onPress={() => console.log("Button tapped")}/>
+```
+#### ![image](https://user-images.githubusercontent.com/62974484/201526896-9f38adf2-8c32-4c0e-9f98-0eab127366ba.png)
+### <br/><br/><br/>
 
+### 배경색 변경 태그 : color
+#### return 안에 넣어준다.
+```
+      <Button 
+        color="orange"
+        title="Click Me" 
+        onPress={() => console.log("Button tapped")}
+      />
+```
+#### ![image](https://user-images.githubusercontent.com/62974484/201526982-5c8e5a4d-f6c4-4a68-9ba7-73f8884d6928.png)
+### <br/><br/><br/>
 
-
+--------------------------------------
 
 
 
