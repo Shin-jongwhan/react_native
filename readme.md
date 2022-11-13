@@ -649,6 +649,18 @@ https://user-images.githubusercontent.com/62974484/201526369-708f7381-ee81-43ee-
 
 --------------------------------------
 
+## alert
+### <br/><br/><br/>
+
+### Button 등에 활용할 수 있다.
+```
+      <Button 
+        color="orange"
+        title="Click Me" 
+        onPress={() => alert("Button tapped")}
+      />
+```
+https://user-images.githubusercontent.com/62974484/201527172-4ca182b0-c97c-499a-b6c8-0c3dd3814432.mp4
 
 
 
