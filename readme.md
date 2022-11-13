@@ -871,6 +871,7 @@ const styles = StyleSheet.create({
 ### <br/><br/><br/>
 
 ### mobile OS 는 실제 pixel 을 scale 값을 곱해줘서 구한다.
+### mobile OS 의 1 point 는 scale 값이 3 이면 3 pixcel 이다.
 #### ![image](https://user-images.githubusercontent.com/62974484/201535533-0b63a663-7d02-48dd-826d-657d206b80f2.png)
 ### DIP : Density-independent Pixels
 ### Physical Pixels = DIPs * Scale Factor
@@ -910,8 +911,10 @@ export default function App() {
 ### <br/><br/><br/>
 
 ### Dimension 으로 OS 의 scale 을 확인할 수 있다.
-### 2 가지를 사용할 수 있다.
-#### console.log(Dimensions.get("window"));
+### window, screen 2 가지를 사용할 수 있다.
+- window : 현재 앱에서 실제로 사용할 수 있는 크기
+- screen : OS 의 전체 크기 
+### console.log(Dimensions.get("window"));
 ```
 import { 
   StyleSheet, 
@@ -947,7 +950,7 @@ export default function App() {
 ### <br/>
 
 
-#### console.log(Dimensions.get("screen"));
+### console.log(Dimensions.get("screen"));
 #### ![image](https://user-images.githubusercontent.com/62974484/201536089-97ad74a3-1c11-4e72-a531-12ecc14507fb.png)
 ### <br/><br/><br/>
 
