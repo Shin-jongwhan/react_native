@@ -652,7 +652,8 @@ https://user-images.githubusercontent.com/62974484/201526369-708f7381-ee81-43ee-
 ## alert
 ### <br/><br/><br/>
 
-### Button 등에 활용할 수 있다.
+### `alert`
+### react native 의 기본 기능으로 Button 등에 활용할 수 있다.
 ```
       <Button 
         color="orange"
@@ -661,6 +662,30 @@ https://user-images.githubusercontent.com/62974484/201526369-708f7381-ee81-43ee-
       />
 ```
 https://user-images.githubusercontent.com/62974484/201527172-4ca182b0-c97c-499a-b6c8-0c3dd3814432.mp4
+### <br/><br/><br/>
+
+### `Alert`
+### import 하여 사용하는 API 이다.
+```
+import { 
+  Alert
+} from 'react-native';
+```
+### <br/>
+
+### 버튼을 호출할 때 안 쪽에 클릭할 수 있는 버튼을 만들어 줄 수 있다.
+```
+      <Button 
+        color="orange"
+        title="Click Me" 
+        onPress={() => Alert.alert("My title", "My messqge", [
+          {text: "Yes"}, 
+          {text: "No"},
+        ])}
+      />
+```
+https://user-images.githubusercontent.com/62974484/201527531-442db5f6-25f6-4d91-8ed0-864ff61a514e.mp4
+
 
 
 
