@@ -874,4 +874,56 @@ const styles = StyleSheet.create({
 #### ![image](https://user-images.githubusercontent.com/62974484/201535533-0b63a663-7d02-48dd-826d-657d206b80f2.png)
 ### DIP : Density-independent Pixels
 ### Physical Pixels = DIPs * Scale Factor
+### <br/><br/><br/>
 
+### DIP 로 값을 주었을 때
+```
+export default function App() {
+  console.log("App executed");
+  return (
+    <SafeAreaView>
+      <View style={{
+        backgroundColor: 'dodgerblue',
+        width: 150, 
+        height: 70
+      }}>
+      </View>
+    </SafeAreaView>
+  );
+}
+```
+#### ![image](https://user-images.githubusercontent.com/62974484/201535676-b038da50-168a-43f4-9b28-66bca5e1bad0.png)
+### <br/>
+
+### % 로 값을 주었을 때
+```
+    <SafeAreaView>
+      <View style={{
+        backgroundColor: 'dodgerblue',
+        width: "50%", 
+        height: 70
+      }}>
+      </View>
+    </SafeAreaView>
+```
+#### ![image](https://user-images.githubusercontent.com/62974484/201535735-1f1e2069-4aeb-47f3-991f-5b9555cad8e7.png)
+### <br/><br/><br/>
+
+### Dimension 으로 OS 의 scale 을 확인할 수 있다.
+### 2 가지를 사용할 수 있다.
+#### console.log(Dimensions.get("window"));
+#### console.log(Dimensions.get("screen"));
+```
+import { 
+  ...
+  Dimensions
+} from 'react-native';
+
+// View -> UIView
+export default function App() {
+  console.log("App executed");
+  console.log(Dimensions.get("window"));
+}
+...
+```
+#### ![image](https://user-images.githubusercontent.com/62974484/201536011-ce8765b6-4046-4b3e-b78f-91bea924c606.png)
