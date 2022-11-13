@@ -22,6 +22,8 @@
 
 --------------------------------------
 
+## 1. Settings
+### <br/><br/><br/>
 
 ## setting up dev environment
 ### 1. visual studio code
@@ -147,6 +149,8 @@ const styles = StyleSheet.create({
 ### <br/><br/><br/>
 
 --------------------------------------
+# 2. Llogging, debugging, publishing
+### <br/><br/><br/>
 
 ## Debugging - logging
 ### console.log("str")
@@ -305,6 +309,9 @@ https://user-images.githubusercontent.com/62974484/200348266-613e0190-076c-4535-
 
 ### <br/><br/><br/>
 --------------------------------------
+
+## 3. Fundamental concepts and components
+### <br/><br/><br/>
 
 ## view - SafeAreaView
 ### Let's check how the words are aligned.
@@ -857,6 +864,6 @@ const styles = StyleSheet.create({
 
 --------------------------------------
 
-## Layout
-
+# 4. Layout
+### <br/><br/><br/>
 
