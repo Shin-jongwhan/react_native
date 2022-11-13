@@ -310,7 +310,7 @@ https://user-images.githubusercontent.com/62974484/200348266-613e0190-076c-4535-
 ### <br/><br/><br/>
 --------------------------------------
 
-## 3. Fundamental concepts and components
+# 3. Fundamental concepts and components
 ### <br/><br/><br/>
 
 ## view - SafeAreaView
