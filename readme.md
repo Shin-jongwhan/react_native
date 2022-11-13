@@ -912,7 +912,6 @@ export default function App() {
 ### Dimension 으로 OS 의 scale 을 확인할 수 있다.
 ### 2 가지를 사용할 수 있다.
 #### console.log(Dimensions.get("window"));
-#### console.log(Dimensions.get("screen"));
 ```
 import { 
   ...
@@ -923,7 +922,17 @@ import {
 export default function App() {
   console.log("App executed");
   console.log(Dimensions.get("window"));
+  ...
 }
 ...
 ```
 #### ![image](https://user-images.githubusercontent.com/62974484/201536011-ce8765b6-4046-4b3e-b78f-91bea924c606.png)
+### <br/>
+
+
+#### console.log(Dimensions.get("screen"));
+#### ![image](https://user-images.githubusercontent.com/62974484/201536089-97ad74a3-1c11-4e72-a531-12ecc14507fb.png)
+### <br/><br/><br/>
+
+
+
