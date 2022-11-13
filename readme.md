@@ -8,7 +8,7 @@
 ### https://reactnative.dev/docs/0.69/components-and-apis
 
 ### <br/><br/><br/>
-=====================================
+--------------------------------------
 
 
 ## setting up dev environment
