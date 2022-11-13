@@ -540,4 +540,36 @@ https://user-images.githubusercontent.com/62974484/200899770-6d985e4d-f60f-4525-
 ### <br/><br/><br/>
 
 --------------------------------------
+## touchables
+### <br/><br/><br/>
+
+### `TouchableWithoutFeedback`
+### 다음과 같이 Image 태그를 TouchableWithoutFeedback 안으로 감싼다.
+### 기능을 알기 위해 onPress 기능으로 log 를 찍어본다.
+```
+      <TouchableWithoutFeedback onPress = {() => console.log("Image tapped")}>
+        <Image 
+          style = {styles.logo}
+          blurRadius = {10}
+          fadeDuration = {1000}
+          source = {{
+            uri: "https://cdn.pixabay.com/photo/2022/01/18/07/36/cat-6946498_960_720.jpg"
+          }}
+        />
+```
+### 이미지를 클릭하면 로그에 찍힌다.
+#### ![image](https://user-images.githubusercontent.com/62974484/201522475-3e452def-4d31-4790-9530-90c202192006.png)
+### <br/><br/><br/>
+
+
+
+
+
+
+
+
+
+
+
+
 
