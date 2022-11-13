@@ -867,3 +867,7 @@ const styles = StyleSheet.create({
 # 4. Layout
 ### <br/><br/><br/>
 
+## Demensions
+### <br/><br/><br/>
+
+### [D]ensity-independent Pixels
