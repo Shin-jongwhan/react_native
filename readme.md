@@ -687,9 +687,24 @@ import {
       />
 ```
 https://user-images.githubusercontent.com/62974484/201527531-442db5f6-25f6-4d91-8ed0-864ff61a514e.mp4
+### <br/><br/><br/>
+
+### Alert.prompt
+### ios 에서만 작동한다.
+### 안드로이드에서는 클릭만 되고 아무 기능도 안 일어난다.
+```
+      <Button
+        title="Click Me"
+        onPress={() => 
+          Alert.prompt("My title", "My message", (text) => console.log(text))
+        }
+      />
+```
+#### ![image](https://user-images.githubusercontent.com/62974484/201527935-de8aa090-e2af-40ea-8100-41e182173ce9.png)
+### <br/><br/><br/>
 
 
-
+--------------------------------------
 
 
 
