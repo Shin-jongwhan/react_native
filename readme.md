@@ -339,6 +339,7 @@ import { StyleSheet, Text, View, SafeAreaView } from 'react-native';
 ### <br/><br/>
 
 ### SafeAreaView doesn't work ! -> how to fix
+#### * SafeAreaView is working on ios only.
 ### I would advise you to not just follow safeAreaView functionalities. rather its better extract the Status bar height and give a marginTop to whole container so its always below the status bar.
 #### https://stackoverflow.com/questions/59428494/safeareaview-not-work-views-go-above-the-notification-tab
 ```
@@ -783,10 +784,62 @@ const styles = StyleSheet.create({
 }
 ```
 #### ![image](https://user-images.githubusercontent.com/62974484/201528683-b97f73c2-56cb-4af8-85dd-65103a0d1db0.png)
+### <br/><br/><br/>
 
+--------------------------------------
 
+## platform-specific code
+### <br/><br/><br/>
 
+### `Platform`
+### SafeAreaView 는 ios 에서만 동작한다.
+### 만약 OS 에서 동작하게 하는 기능을 만들고 싶다면 Platform 을 사용한다.
+### <br/>
 
+### Platform 을 지정해주지 않았을 때 -> SafeAreaView 가 작동하지 않는다.
+```
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+    marginTop:StatusBar.currentHeight,
+  },
+```
+#### ![image](https://user-images.githubusercontent.com/62974484/201534148-9e586eab-5c05-4ade-9c31-1eb8b4730420.png)
+### <br/>
+
+### Platform 을 지정해줬을 때 -> 특정 기능을 넣어줄 수 있다.
+#### android 라면 paddingTop 을 20 주고 아니면 0
+```
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+    paddingTop: Platform.OS === "android" ? 20 : 0
+  },
+```
+#### ![image](https://user-images.githubusercontent.com/62974484/201534198-8cfb724b-d6bd-447a-9121-93b6e9c74a2d.png)
+### <br/>
+
+### 이렇게 하면 특정 OS 에서 다른 기능을 할 수 있게 만든다.
+### before
+```
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+    marginTop:StatusBar.currentHeight,
+    justifyContent: "center",
+    alignItems: "center",
+  },
+```
+### after
+```
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+    justifyContent: "center",
+    alignItems: "center",
+    paddingTop: Platform.OS === "android" ? StatusBar.currentHeight : 0
+  },
+```
 
 
 
