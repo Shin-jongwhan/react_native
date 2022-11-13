@@ -745,6 +745,7 @@ const styles = StyleSheet.create({
 ### <br/><br/><br/>
 
 ### \[\] 으로 넣어주면 여러 style 을 넣어줄 수 있다.
+#### * 맨 마지막에 , 을 넣어주는 것은 separation 을 위해서 편의상 넣어주는 것이다. 안 넣고 싶으면 안 넣어도 된다.
 ```
   return (
     <SafeAreaView style={[styles.container, styles.background_orange]}>
