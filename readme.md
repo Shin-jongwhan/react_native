@@ -595,7 +595,7 @@ https://user-images.githubusercontent.com/62974484/201522622-802ef223-b2f0-48e5-
 ### <br/><br/><br/>
 
 ### `TouchableHighlight`
-#### return 안에다가 넣어준다.
+#### return 안에다가 넣어준다. 
 ```
       <TouchableHighlight onPress = {() => console.log("Image tapped")}>
         <Image 
