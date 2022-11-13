@@ -914,17 +914,34 @@ export default function App() {
 #### console.log(Dimensions.get("window"));
 ```
 import { 
-  ...
+  StyleSheet, 
+  Text, 
+  View, 
+  SafeAreaView, 
+  StatusBar, 
+  Image, 
+  Button, 
+  Alert,
+  Platform,
   Dimensions
 } from 'react-native';
 
 // View -> UIView
 export default function App() {
   console.log("App executed");
-  console.log(Dimensions.get("window"));
-  ...
+  console.log(Dimensions.get("screen"));
+
+  return (
+    <SafeAreaView>
+      <View style={{
+        backgroundColor: 'dodgerblue',
+        width: "50%", 
+        height: 70
+      }}>
+      </View>
+    </SafeAreaView>
+  );
 }
-...
 ```
 #### ![image](https://user-images.githubusercontent.com/62974484/201536011-ce8765b6-4046-4b3e-b78f-91bea924c606.png)
 ### <br/>
