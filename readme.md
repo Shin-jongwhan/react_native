@@ -562,6 +562,7 @@ https://user-images.githubusercontent.com/62974484/200899770-6d985e4d-f60f-4525-
 ### <br/><br/><br/>
 
 ### `TouchableOpacity`
+#### return 안에다가 넣어준다.
 ```
       <TouchableOpacity onPress = {() => console.log("Image tapped")}>
         <Image 
@@ -579,6 +580,7 @@ https://user-images.githubusercontent.com/62974484/201522622-802ef223-b2f0-48e5-
 ### <br/><br/><br/>
 
 ### `TouchableHighlight`
+#### return 안에다가 넣어준다.
 ```
       <TouchableHighlight onPress = {() => console.log("Image tapped")}>
         <Image 
@@ -594,6 +596,23 @@ https://user-images.githubusercontent.com/62974484/201522622-802ef223-b2f0-48e5-
 ### 클릭하면 하이라이트만 슉 하고 나타나고 다시 원래 그림으로 되돌아온다.
 https://user-images.githubusercontent.com/62974484/201522774-57f7cd58-a808-4213-b9c9-6578438ebca9.mp4
 ### <br/><br/><br/>
+
+### `TouchableNativeFeedback`
+### 안드로이드 앱에서만 구동한다.
+#### return 안에다가 넣어준다.
+```
+      <TouchableNativeFeedback onPress = {() => console.log("Image tapped")}>
+        <View style={{width: 200, height: 70, backgroundColor: "dodgerblue"}}></View>
+      </TouchableNativeFeedback>
+```
+https://user-images.githubusercontent.com/62974484/201526369-708f7381-ee81-43ee-b1e3-4cc979328e81.mp4
+### <br/><br/><br/>
+
+--------------------------------------
+
+
+
+
 
 
 
