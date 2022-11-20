@@ -1198,3 +1198,48 @@ export default function App() {
 
 --------------------------------------
 
+## justifyContent, alignItems
+### <br/><br/><br/>
+
+### 사용 방법
+```
+    <View style={{
+      backgroundColor: "#fff",
+      flex: 1,
+      flexDirection: "row", // horizontal
+      justifyContent: "center", // main
+      alignItems: "baseline"  // secondary
+```
+
+### `justifyContent`
+- center : 중앙 정렬. 
+- flex-end : 오르쪽 위
+- flex-start : 왼쪽 위
+- space-around : 1) 컴포넌트들의 중간에 간격이 같고, 2) 양 끝쪽이 같다.
+- space-evenly : 간격이 모두 같다.
+- space-between : 양 끝쪽 간격이 없이 중간 간격이 같다.
+### <br/><br/>
+
+### `alignItems`
+- baseline : 컴포넌트들이 컴포넌트 아래쪽 기준으로 정렬이 된다.
+#### ![image](https://user-images.githubusercontent.com/62974484/202910940-286a68c5-a4db-4580-aabc-6b0cd9c9327b.png)
+- flex-end : 맨 아래쪽으로 정렬이 된다.
+#### ![image](https://user-images.githubusercontent.com/62974484/202910971-3d229d9a-e67d-4c39-ab3d-698279951efd.png)
+- flex-start : 부모 컴포넌트 위쪽을 기준으로 정렬이 된다.
+#### ![image](https://user-images.githubusercontent.com/62974484/202911051-3e625fdb-d960-4b42-8696-a22f363562fb.png)
+- stretch : 세로로 늘린다. justifyCentent 에서 alignItems 지정 안 해주더라도 default value 라서 자동으로 지정이 된다.
+```
+    <View style={{
+      backgroundColor: "#fff",
+      flex: 1,
+      flexDirection: "row", // horizontal
+      justifyContent: "center", // main
+      alignItems: "stretch"  // secondary
+    }}>
+      <View 
+        style={{
+          backgroundColor: "dodgerblue",
+          width: 100,
+        }}
+```
+#### ![image](https://user-images.githubusercontent.com/62974484/202911112-9428d047-a7d4-406c-9321-bf238b2e96cf.png)
