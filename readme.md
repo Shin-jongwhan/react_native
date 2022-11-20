@@ -1046,20 +1046,21 @@ export default function App() {
 ### <br/><br/>
 
 ### 다음과 같이 가로 모드냐, 세로 모드냐에 따라 어떻게 보여줄지 정할 수 있다.
+### 가로 모드일 경우 100%, 세로 모드일 경우 30%
 ```
 export default function App() {
   console.log("App executed");
   //console.log(Dimensions.get("screen"));
   //console.log(useDimensions());
   console.log(useDeviceOrientation());
-  **const {landscape} = useDeviceOrientation();**
+  const {landscape} = useDeviceOrientation();
 
   return (
     <SafeAreaView style={styles.container}>
       <View style={{
         backgroundColor: 'dodgerblue',
         width: "100%", 
-        **height: landscape ? "100%" : "30%",**
+        height: landscape ? "100%" : "30%",
       }}>
       </View>
     </SafeAreaView>
