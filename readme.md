@@ -1161,6 +1161,16 @@ export default function App() {
 #### ![image](https://user-images.githubusercontent.com/62974484/202910052-b6227dc1-7945-4290-a023-071b37b028a8.png)
 ### <br/><br/>
 
+### 세로 정렬 반대
+```
+    <View style={{
+      backgroundColor: "#fff",
+      flex: 1,
+      flexDirection: "column-reverse"
+```
+#### ![image](https://user-images.githubusercontent.com/62974484/202910279-4e974f23-67b7-4427-8dd8-886cacf761c9.png)
+### <br/><br/>
+
 ### 가로 정렬 `flexDirection: "row"`
 ```
   return (
@@ -1170,8 +1180,9 @@ export default function App() {
       flexDirection: "row"
 ```
 #### ![image](https://user-images.githubusercontent.com/62974484/202910103-9f0aca0f-5d79-44f7-9e49-29655a7d6142.png)
+### <br/><br/>
 
-### 가로 정렬 `flexDirection: "row-reverse"`
+### 가로 정렬 반대 `flexDirection: "row-reverse"`
 ```
     <View style={{
       backgroundColor: "#fff",
@@ -1179,4 +1190,11 @@ export default function App() {
       flexDirection: "row-reverse"
 ```
 #### ![image](https://user-images.githubusercontent.com/62974484/202910158-5e3c2395-0bd3-47fe-80e2-b2c9fb2de27d.png)
+### <br/><br/>
+
+### flex 에 대한 가로 축은 primary axis 라고 하고, 세로 축은 cross axis 라고 한다.
+#### ![image](https://user-images.githubusercontent.com/62974484/202910376-3c8282f0-6ff0-4039-a553-f3b0edcfba75.png)
+### <br/><br/><br/>
+
+--------------------------------------
 
