@@ -1430,4 +1430,60 @@ export default function App() {
 
 --------------------------------------
 
-## 
+## Alsolute and relative positioning
+### <br/><br/><br/>
+
+### 컴포넌트에 따로 position 을 줘서 옮길 수 있다.
+- top
+- bottom
+- left
+- right
+```
+      <View 
+        style={{
+          backgroundColor: "gold",
+          width: 100,
+          height: 100,
+          top: 20
+        }}
+      />
+```
+#### ![image](https://user-images.githubusercontent.com/62974484/202913173-68eadbe7-2222-4cc8-b24e-d2e57bab812b.png)
+### <br/><br/>
+
+### `position`
+- relative : 부모 컴포넌트 기준. default.
+- absolute : 전체 화면 기준
+### absolute 를 사용하면 부모 컴포넌트의 정렬을 무시한다.
+```
+      <View 
+        style={{
+          backgroundColor: "gold",
+          width: 100,
+          height: 100,
+          top: 20,
+          left: 20,
+          position: "absolute"
+        }}
+      />
+```
+#### ![image](https://user-images.githubusercontent.com/62974484/202913376-3aa6e113-4027-4032-9e2d-97b3f698c13b.png)
+### <br/><br/>
+
+### relative 를 사용하면 부모 컴포넌트의 정렬을 따른다. relative 가 default 이다.
+```
+      <View 
+        style={{
+          backgroundColor: "gold",
+          width: 100,
+          height: 100,
+          top: 20,
+          left: 20,
+          position: "relative"
+        }}
+      />
+```
+#### ![image](https://user-images.githubusercontent.com/62974484/202913413-fb14899a-abff-4cb2-b724-e223a031de4e.png)
+### <br/><br/><br/>
+
+--------------------------------------
