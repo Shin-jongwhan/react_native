@@ -1347,4 +1347,87 @@ export default function App() {
     }}>
 ```
 #### ![image](https://user-images.githubusercontent.com/62974484/202911904-bc8cabae-c894-4066-9ae6-f7b7d48edd44.png)
+### <br/><br/><br/>
+
+--------------------------------------
+
+## flexBasis, flexGrow and flexShrink
+### <br/><br/><br/>
+
+### `flexBasis`
+### width 를 지우고 flexBasis 로 대체해도 같은 결과를 낸다.
+### flexBasis 는 width 또는 height 의 역할을 한다.
+```
+        style={{
+          backgroundColor: "dodgerblue",
+          flexBasis: 100,
+          //width: 100,
+          height: 100
+        }}
+```
 ### <br/><br/>
+
+### `flexGrow`
+### 늘린다.
+```
+        style={{
+          backgroundColor: "dodgerblue",
+          flexBasis: 100,
+          flexGrow: 1,
+          //width: 100,
+          height: 100
+        }}
+```
+#### ![image](https://user-images.githubusercontent.com/62974484/202912629-d8e95c7b-9656-405d-8d5f-22f6c7bc5590.png)
+### <br/><br/>
+
+### `flexShrink`
+### 다음과 같이 하면 화면 밖으로 컴포넌트가 벗어난다.
+```
+    <View style={{
+      backgroundColor: "#fff",
+      flex: 1,
+      flexDirection: "row", // horizontal
+      justifyContent: "center", // main
+      alignItems: "center",  // secondary
+    }}>
+      <View 
+        style={{
+          backgroundColor: "dodgerblue",
+          width: 400,
+          height: 100
+        }}
+      />
+```
+#### ![image](https://user-images.githubusercontent.com/62974484/202912800-288325d3-674b-4780-abc5-dbc94768b5cf.png)
+### <br/>
+
+### flexShrink 를 사용하면 벗어나지 못 하게 크기가 줄어든다.
+### 표시 할 영역이 없다면 사라진다.
+```
+      <View 
+        style={{
+          backgroundColor: "dodgerblue",
+          width: 400,
+          flexShrink: 1,
+          height: 100
+        }}
+      />
+```
+### 다음과 같이 써도 똑같은 결과를 나타낸다.
+```
+      <View 
+        style={{
+          backgroundColor: "dodgerblue",
+          width: 400,
+          flex: -1,
+          height: 100
+        }}
+      />
+```
+#### ![image](https://user-images.githubusercontent.com/62974484/202912882-d0333073-2320-4c2e-ac66-d35b66cdc0a8.png)
+### <br/><br/><br/>
+
+--------------------------------------
+
+## 
