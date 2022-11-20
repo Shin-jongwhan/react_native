@@ -954,5 +954,90 @@ export default function App() {
 #### ![image](https://user-images.githubusercontent.com/62974484/201536089-97ad74a3-1c11-4e72-a531-12ecc14507fb.png)
 ### <br/><br/><br/>
 
+--------------------------------------
 
+## Detecting orientation changes
+### <br/><br/><br/>
 
+### app.json
+### orientation 이라는 항목이 있는데, 여기에 화면에 대해 3가지 지원 모드 설정할 수 있다.
+- portrait : 세로 모드
+- landcape : 가로 모드
+- default : both
+#### * expo 에 관한 이야기이다.
+```
+{
+  "expo": {
+    "name": "DoneWithIt",
+    "slug": "DoneWithIt",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+```
+### <br/><br/>
+
+### 아래 깃허브는 screen orientation detection function 이다.
+### https://github.com/react-native-community/hooks
+### npm 설치
+```
+npm i @react-native-community/hooks
+```
+### <br/><br/>
+
+### App() 에 log 을 찍어본다. 그럼 스크린의 사이즈 정보를 알 수 있는 값이 출력된다.
+```
+import { useDimensions } from '@react-native-community/hooks';    // screen orientation detection
+
+export default function App() {
+  console.log("App executed");
+  //console.log(Dimensions.get("screen"));
+  console.log(useDimensions());
+  
+  return (
+    <SafeAreaView style={styles.container}>
+      <View style={{
+        backgroundColor: 'dodgerblue',
+        width: "100%", 
+        height: "30%",
+      }}>
+      </View>
+    </SafeAreaView>
+  );
+}  
+```
+#### ![image](https://user-images.githubusercontent.com/62974484/202908375-1567e962-393f-420e-b6d0-aeb7bf50cb9b.png)
+### <br/><br/>
+
+### 디바이스를 회전시키면 회전시킨 값이 나온다
+#### ![image](https://user-images.githubusercontent.com/62974484/202908442-d4bb05de-c3e4-429e-85cd-400d5c2a4d4f.png)
+### <br/><br/><br/>
+
+### useDeviceOrientation 는 portrait 인지, landscape 인지 알려준다.
+```
+import { useDimensions, useDeviceOrientation } from '@react-native-community/hooks';    // screen orientation detection
+
+// View -> UIView
+export default function App() {
+  console.log("App executed");
+  //console.log(Dimensions.get("screen"));
+  //console.log(useDimensions());
+  console.log(useDeviceOrientation());
+
+  return (
+    <SafeAreaView style={styles.container}>
+      <View style={{
+        backgroundColor: 'dodgerblue',
+        width: "100%", 
+        height: "30%",
+      }}>
+      </View>
+    </SafeAreaView>
+  );
+}
+```
