@@ -16,6 +16,7 @@
 ## 2. Llogging, debugging, publishing
 ## 3. Fundamental concepts and components
 ## 4. Layouts
+## 5. Excercises
 
 
 ### <br/><br/><br/>
@@ -1487,3 +1488,6 @@ export default function App() {
 ### <br/><br/><br/>
 
 --------------------------------------
+
+# 5. Excercises
+### <br/><br/><br/>
