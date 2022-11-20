@@ -1041,3 +1041,28 @@ export default function App() {
   );
 }
 ```
+#### ![image](https://user-images.githubusercontent.com/62974484/202908651-4caf9625-cfc8-4e5a-b877-b1f45d885a13.png)
+#### ![image](https://user-images.githubusercontent.com/62974484/202908659-64cb80bc-09e3-46ac-b156-707d441b9a80.png)
+### <br/><br/>
+
+### 다음과 같이 가로 모드냐, 세로 모드냐에 따라 어떻게 보여줄지 정할 수 있다.
+```
+export default function App() {
+  console.log("App executed");
+  //console.log(Dimensions.get("screen"));
+  //console.log(useDimensions());
+  console.log(useDeviceOrientation());
+  **const {landscape} = useDeviceOrientation();**
+
+  return (
+    <SafeAreaView style={styles.container}>
+      <View style={{
+        backgroundColor: 'dodgerblue',
+        width: "100%", 
+        **height: landscape ? "100%" : "30%",**
+      }}>
+      </View>
+    </SafeAreaView>
+  );
+}
+```
