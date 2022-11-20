@@ -1268,3 +1268,83 @@ export default function App() {
 ## flexWrap and alignContent
 ### <br/><br/><br/>
 
+### alignItems 와 alignContent 의 차이점 : alignItems 은 item 에 대해 정렬 기준을 세우고, alignContent 전체 정렬 기준을 세운다.
+
+### justifyContent 에서 컴포넌트를 4 가지를 써보자
+```
+  return (
+    <View style={{
+      backgroundColor: "#fff",
+      flex: 1,
+      flexDirection: "row", // horizontal
+      justifyContent: "center", // main
+      alignItems: "center"  // secondary
+    }}>
+      <View 
+        style={{
+          backgroundColor: "dodgerblue",
+          width: 100,
+          height: 100
+        }}
+      />
+      <View 
+        style={{
+          backgroundColor: "gold",
+          width: 100,
+          height: 100
+        }}
+      />
+      <View 
+        style={{
+          backgroundColor: "tomato",
+          width: 100,
+          height: 100
+        }}
+      />
+      <View 
+        style={{
+          backgroundColor: "gray",
+          width: 100,
+          height: 100
+        }}
+      />
+    </View>
+```
+### 그러면 양쪽 끝에 약간의 마진이 생긴 것을 알 수 있다.
+#### ![image](https://user-images.githubusercontent.com/62974484/202911606-db02df6c-9da9-48ea-ae3c-c170069c2989.png)
+### <br/>
+
+### 5 개를 하면 마진이 없어진다.
+#### ![image](https://user-images.githubusercontent.com/62974484/202911645-2eceff66-1e3b-455c-b67d-0f82486b863b.png)
+### <br/>
+
+### 정렬할 수 있는 컴포넌트 최대 수가 넘어가면 정렬이 이상하게 되는 현상이 발생한 것이다.
+### `wrap` 을 써주면 정렬이 깨지는 것을 막을 수 있다. 
+```
+    <View style={{
+      backgroundColor: "#fff",
+      flex: 1,
+      flexDirection: "row", // horizontal
+      justifyContent: "center", // main
+      alignItems: "center",  // secondary
+      flexWrap: "wrap",
+    }}>
+```
+#### ![image](https://user-images.githubusercontent.com/62974484/202911759-76395db8-63d0-4d37-ac2b-4c97163b8854.png)
+### <br/><br/>
+
+### 그런데 수직 정렬이 깨졌다.
+### 이럴 때는 `alignContent` 를 써준다.
+```
+    <View style={{
+      backgroundColor: "#fff",
+      flex: 1,
+      flexDirection: "row", // horizontal
+      justifyContent: "center", // main
+      alignItems: "center",  // secondary
+      alignContent: "center",
+      flexWrap: "wrap",
+    }}>
+```
+#### ![image](https://user-images.githubusercontent.com/62974484/202911904-bc8cabae-c894-4066-9ae6-f7b7d48edd44.png)
+### <br/><br/>
