@@ -1067,3 +1067,116 @@ export default function App() {
   );
 }
 ```
+### 세로
+#### ![image](https://user-images.githubusercontent.com/62974484/202909404-e17fdc31-2404-41ad-8491-9ec2045765b9.png)
+### 가로
+#### ![image](https://user-images.githubusercontent.com/62974484/202909420-e1a7e5b8-d9b8-4dc5-ba63-c6e7b7ddb369.png)
+
+### <br/><br/><br/>
+
+--------------------------------------
+
+## Flex box
+### <br/><br/><br/>
+
+### flex 는 화면 상단부터 어디까지 차지할지 설정해준다.
+```
+  return (
+    <View style={{
+      backgroundColor: "dodgerblue",
+      flex: 0.5,
+    }}></View>
+  );
+```
+#### ![image](https://user-images.githubusercontent.com/62974484/202909679-f08650bb-633c-4903-902a-faad7d5d9c89.png)
+### <br/><br/>
+
+### flex component 안 쪽에 3가지 태그를 넣어준다면 3 등분해준다(1:1:1).
+### 만약 dodgerblue 에 2 를 넣어주면 2:1:1 이 된다.
+```
+  return (
+    <View style={{
+      backgroundColor: "#fff",
+      flex: 1,
+    }}>
+      <View 
+        style={{
+          backgroundColor: "dodgerblue",
+          flex: 1,
+        }}
+      />
+      <View 
+        style={{
+          backgroundColor: "gold",
+          flex: 1,
+        }}
+      />
+      <View 
+        style={{
+          backgroundColor: "tomato",
+          flex: 1,
+        }}
+      />
+    </View>
+  );
+```
+### 1:1:1
+#### ![image](https://user-images.githubusercontent.com/62974484/202909822-5bf7ff5a-c142-4bd3-973d-24179e19968f.png)
+### 2:1:1
+#### ![image](https://user-images.githubusercontent.com/62974484/202909905-64644115-8164-4eac-9d3e-2a5cb4b4cfd1.png)
+### <br/><br/>
+
+### `flex direction`
+### flex 가 아닌 width 와 height 로 설정해주면 전체 크기에서 등분해준다.
+```
+  return (
+    <View style={{
+      backgroundColor: "#fff",
+      flex: 1,
+    }}>
+      <View 
+        style={{
+          backgroundColor: "dodgerblue",
+          width: 100,
+          height: 100
+        }}
+      />
+      <View 
+        style={{
+          backgroundColor: "gold",
+          width: 100,
+          height: 100
+        }}
+      />
+      <View 
+        style={{
+          backgroundColor: "tomato",
+          width: 100,
+          height: 100
+        }}
+      />
+    </View>
+  );
+```
+#### ![image](https://user-images.githubusercontent.com/62974484/202910052-b6227dc1-7945-4290-a023-071b37b028a8.png)
+### <br/><br/>
+
+### 가로 정렬 `flexDirection: "row"`
+```
+  return (
+    <View style={{
+      backgroundColor: "#fff",
+      flex: 1,
+      flexDirection: "row"
+```
+#### ![image](https://user-images.githubusercontent.com/62974484/202910103-9f0aca0f-5d79-44f7-9e49-29655a7d6142.png)
+
+### 가로 정렬 `flexDirection: "row-reverse"`
+```
+    <View style={{
+      backgroundColor: "#fff",
+      flex: 1,
+      flexDirection: "row-reverse"
+```
+#### ![image](https://user-images.githubusercontent.com/62974484/202910158-5e3c2395-0bd3-47fe-80e2-b2c9fb2de27d.png)
+
