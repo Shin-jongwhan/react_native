@@ -1229,6 +1229,7 @@ export default function App() {
 #### ![image](https://user-images.githubusercontent.com/62974484/202911051-3e625fdb-d960-4b42-8696-a22f363562fb.png)
 - stretch : 세로로 늘린다. justifyCentent 에서 alignItems 지정 안 해주더라도 default value 라서 자동으로 지정이 된다.
 ```
+// dodgerblue 쪽에 height 를 지정 안 해줌
     <View style={{
       backgroundColor: "#fff",
       flex: 1,
@@ -1243,3 +1244,27 @@ export default function App() {
         }}
 ```
 #### ![image](https://user-images.githubusercontent.com/62974484/202911112-9428d047-a7d4-406c-9321-bf238b2e96cf.png)
+- center : 가운데를 기준으로 정렬한다.
+#### ![image](https://user-images.githubusercontent.com/62974484/202911262-b4e62ff7-4a1e-4316-9b32-bf129250d9e1.png)
+### <br/><br/>
+
+### `alignSelf`
+### 정렬 기준이 설정되어 있더라도 컴포넌트에 alginSelf 를 설정해주면 그 컴포넌트만 따로 정렬이 된다.
+```
+      <View 
+        style={{
+          backgroundColor: "dodgerblue",
+          width: 100,
+          height: 300,
+          alignSelf: "flex-start"
+        }}
+```
+#### ![image](https://user-images.githubusercontent.com/62974484/202911416-a39474a8-aec1-415c-bf5f-5a55506e7462.png)
+
+### <br/><br/><br/>
+
+--------------------------------------
+
+## flexWrap and alignContent
+### <br/><br/><br/>
+
