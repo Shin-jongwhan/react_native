@@ -1268,7 +1268,7 @@ export default function App() {
 ## flexWrap and alignContent
 ### <br/><br/><br/>
 
-### alignItems 와 alignContent 의 차이점 : alignItems 은 item 에 대해 정렬 기준을 세우고, alignContent 전체 정렬 기준을 세운다.
+### alignItems 와 alignContent 의 차이점 : alignItems 은 item 에 대해 정렬 기준을 세우고, alignContent 전체 정렬 기준을 세운다. 그리고 alignContent 는 flexWrap 을 같이 써야만 작동한다.
 
 ### justifyContent 에서 컴포넌트를 4 가지를 써보자
 ```
